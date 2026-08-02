@@ -19,8 +19,7 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   void _showIPDialog(BuildContext context) {
-    final controller = TextEditingController(
-        text: MLService.baseUrl.split('//').last.split(':').first);
+    final controller = TextEditingController(text: MLService.baseUrl);
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
@@ -29,15 +28,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              'Set your machine\'s local Wi-Fi IP to connect your physical phone to the ML server.',
+              'Enter a local server address or your deployed Render URL.',
               style: TextStyle(fontSize: 13, color: AppColors.textMedium),
             ),
             const SizedBox(height: 16),
             TextField(
               controller: controller,
               decoration: const InputDecoration(
-                labelText: 'IP Address (e.g. 192.168.1.5)',
-                hintText: '192.168.1.XX',
+                labelText: 'ML server URL',
+                hintText: 'https://foodflow-ai-mlaa.onrender.com',
                 border: OutlineInputBorder(),
               ),
             ),
@@ -51,7 +50,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ElevatedButton(
             onPressed: () {
               setState(() {
-                MLService.setBaseUrl("${controller.text.trim()}:8000");
+                MLService.setBaseUrl(controller.text.trim());
               });
               Navigator.pop(ctx);
               ScaffoldMessenger.of(context).showSnackBar(

@@ -1,0 +1,17 @@
+# Workspace diagnostics
+analyze_output*.txt
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# Flutter app diagnostics
+food_bridge_ai/analysis_output.txt
+food_bridge_ai/analyze*.txt
+food_bridge_ai/build_log*.txt
+food_bridge_ai/clean.txt
+food_bridge_ai/sha1.txt
+
+# ML server diagnostics
+ml_server/debug_load.txt
+ml_server/error*.txt

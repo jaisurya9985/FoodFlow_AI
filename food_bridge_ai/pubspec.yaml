@@ -1,0 +1,69 @@
+name: food_bridge_ai
+description: "Food Flow AI - Connecting surplus food with communities in need."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_messaging: ^15.0.0
+  firebase_storage: ^12.0.0
+
+  # Google Sign In
+  google_sign_in: ^6.2.1
+
+  # Maps
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Location
+  geolocator: ^11.0.0
+  geocoding: ^2.1.1
+
+  # HTTP
+  http: ^1.2.1
+  dio: ^5.4.3
+
+  # UI & Fonts
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+
+  # Charts
+  fl_chart: ^0.67.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Utilities
+  intl: ^0.19.0
+  image_picker: ^1.1.0
+  cached_network_image: ^3.3.1
+  uuid: ^4.4.0
+  timeago: ^3.7.0
+  fluttertoast: ^8.2.6
+  flutter_local_notifications: ^17.2.4
+  confetti: ^0.7.0
+  flutter_rating_bar: ^4.0.1
+  screenshot: ^2.3.0
+  share_plus: ^7.2.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

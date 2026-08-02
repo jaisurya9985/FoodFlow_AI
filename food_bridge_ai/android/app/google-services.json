@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "347714112681",
+    "project_id": "food-bridge-8a76e",
+    "storage_bucket": "food-bridge-8a76e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347714112681:android:0ee1001d69ee323389adb8",
+        "android_client_info": {
+          "package_name": "com.example.food_bridge_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347714112681-b43luv4ou33iphnckssarlripufg8bp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_bridge_ai",
+            "certificate_hash": "91b342c5e66d7ffb14b5414c4d2e069a2ae587bd"
+          }
+        },
+        {
+          "client_id": "347714112681-2j0a9td06pj85iocmo9k3101bfqidd6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQbx7qDqfjLtbdSwv2d43ScF78aL6jlxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347714112681-2j0a9td06pj85iocmo9k3101bfqidd6r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347714112681-gobb93egmbj7d4f17n51gk8iv96vathm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodBridgeAi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -24,7 +24,7 @@ class VolunteerDashboard extends StatefulWidget {
 }
 
 class _VolunteerDashboardState extends State<VolunteerDashboard> {
-  bool _isAvailable = true;
+  bool _isAvailable = false;
   bool _initialized = false;
   StreamSubscription<Position>? _positionStream;
 

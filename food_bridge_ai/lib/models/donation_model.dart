@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-enum DonationStatus { available, matched, accepted, pickedUp, delivered }
+enum DonationStatus { available, searching, matched, accepted, pickedUp, delivered }
 
 enum RiskLabel { low, medium, high }
 
@@ -278,11 +278,14 @@ class DonationModel {
 
   static DonationStatus _statusFromString(String s) {
     switch (s) {
+      case 'searching':
+        return DonationStatus.searching;
       case 'matched':
         return DonationStatus.matched;
       case 'accepted':
         return DonationStatus.accepted;
       case 'picked_up':
+      case 'pickedUp':
         return DonationStatus.pickedUp;
       case 'delivered':
         return DonationStatus.delivered;
@@ -293,6 +296,8 @@ class DonationModel {
 
   static String _statusToString(DonationStatus s) {
     switch (s) {
+      case DonationStatus.searching:
+        return 'searching';
       case DonationStatus.matched:
         return 'matched';
       case DonationStatus.accepted:

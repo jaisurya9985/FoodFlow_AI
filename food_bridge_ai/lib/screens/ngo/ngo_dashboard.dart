@@ -26,13 +26,16 @@ class NGODashboard extends StatefulWidget {
 class _NGODashboardState extends State<NGODashboard> {
   List<UserModel> _volunteers = [];
   StreamSubscription<List<DonationModel>>? _donationSub;
+  StreamSubscription<List<DonationModel>>? _statusSub;
   Set<String> _seenDonationIds = {};
+  final Map<String, String> _seenStatuses = {};
 
   @override
   void initState() {
     super.initState();
     _loadVolunteers();
     _setupNotificationListener();
+    _setupStatusListener();
     
     // Delay permissions for 3s to prevent ANR during initial render
     Future.delayed(const Duration(seconds: 3), () {
@@ -65,6 +68,44 @@ class _NGODashboardState extends State<NGODashboard> {
     });
   }
 
+  void _setupStatusListener() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final prov = context.read<DonationProvider>();
+      _statusSub = prov.allActiveStream.listen((donations) async {
+        for (final d in donations) {
+          final prev = _seenStatuses[d.id];
+          final current = d.status.name;
+          if (prev == null) {
+            _seenStatuses[d.id] = current;
+            continue;
+          }
+          if (prev == current) continue;
+          _seenStatuses[d.id] = current;
+
+          String title;
+          String body;
+          switch (d.status) {
+            case DonationStatus.accepted:
+              title = 'Volunteer accepted task';
+              body = '${d.assignedVolunteerName ?? "Volunteer"} is heading to pickup.';
+              break;
+            case DonationStatus.pickedUp:
+              title = 'Food picked up';
+              body = 'The volunteer has started delivery to the NGO.';
+              break;
+            case DonationStatus.delivered:
+              title = 'Delivery completed';
+              body = 'The donation reached the NGO.';
+              break;
+            default:
+              continue;
+          }
+          await NotificationService.showLocalNotification(title: title, body: body);
+        }
+      });
+    });
+  }
+
   Future<void> _loadVolunteers() async {
     FirebaseService.volunteersStream().listen((vols) {
       if (mounted) setState(() => _volunteers = vols);
@@ -74,6 +115,7 @@ class _NGODashboardState extends State<NGODashboard> {
   @override
   void dispose() {
     _donationSub?.cancel();
+    _statusSub?.cancel();
     super.dispose();
   }
 
@@ -409,6 +451,24 @@ class _NGODonationCardState extends State<_NGODonationCard> {
     setState(() => _claiming = true);
     final prov = context.read<DonationProvider>();
 
+    final queued = await prov.requestVolunteerSearch(
+      donationId: widget.donation.id,
+      ngoId: widget.uid,
+      ngoName: widget.ngoName,
+    );
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(queued
+            ? 'Searching for an online volunteer. We will notify you when one accepts.'
+            : 'Unable to start volunteer search. Please try again.'),
+        backgroundColor: queued ? AppColors.mossGreen : AppColors.riskHigh,
+      ),
+    );
+    setState(() => _claiming = false);
+    return;
+
+    /* Legacy foreground matcher retained temporarily for reference.
     bool aborted = false;
     
     final result = await showDialog<bool>(
@@ -451,6 +511,7 @@ class _NGODonationCardState extends State<_NGODonationCard> {
     }
 
     if (mounted) setState(() => _claiming = false);
+    */
   }
 
   @override
@@ -724,6 +785,10 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
     Color statusColor;
 
     switch (d.status) {
+      case DonationStatus.searching:
+        statusLabel = 'Searching';
+        statusColor = AppColors.amber;
+        break;
       case DonationStatus.matched:
         statusLabel = 'Volunteer Assigned';
         statusColor = AppColors.teal;

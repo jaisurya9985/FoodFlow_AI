@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
+import 'dart:async';
 import '../../models/donation_model.dart';
 import '../../providers/auth_provider.dart' as app_auth;
 import '../../providers/donation_provider.dart';
 import '../../services/firebase_service.dart';
+import '../../services/location_service.dart';
+import '../../services/notification_service.dart';
 import '../../models/user_model.dart';
 import '../../widgets/shimmer_list.dart';
 import '../../widgets/empty_state_widget.dart';
@@ -22,12 +25,15 @@ class DonorDashboard extends StatefulWidget {
 class _DonorDashboardState extends State<DonorDashboard> with TickerProviderStateMixin {
   late AnimationController _pulseController;
   late AnimationController _floatController;
+  StreamSubscription<List<DonationModel>>? _donationSub;
+  final Map<String, String> _seenStatuses = {};
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) context.read<DonationProvider>().cleanupExpired();
+      _setupNotificationListener();
     });
     _pulseController = AnimationController(vsync: this, duration: const Duration(seconds: 2))..repeat(reverse: true);
     _floatController = AnimationController(vsync: this, duration: const Duration(seconds: 3))..repeat(reverse: true);
@@ -35,9 +41,54 @@ class _DonorDashboardState extends State<DonorDashboard> with TickerProviderStat
 
   @override
   void dispose() {
+    _donationSub?.cancel();
     _pulseController.dispose();
     _floatController.dispose();
     super.dispose();
+  }
+
+  void _setupNotificationListener() {
+    final auth = context.read<app_auth.AuthProvider>();
+    final uid = auth.firebaseUser?.uid ?? '';
+    if (uid.isEmpty) return;
+
+    final prov = context.read<DonationProvider>();
+    _donationSub = prov.donorStream(uid).listen((donations) async {
+      for (final d in donations) {
+        final prev = _seenStatuses[d.id];
+        final current = d.status.name;
+        if (prev == null) {
+          _seenStatuses[d.id] = current;
+          continue;
+        }
+        if (prev == current) continue;
+        _seenStatuses[d.id] = current;
+
+        String title;
+        String body;
+        switch (d.status) {
+          case DonationStatus.matched:
+            title = 'NGO claimed your food';
+            body = '${d.matchedNGOName ?? "An NGO"} is coordinating pickup.';
+            break;
+          case DonationStatus.accepted:
+            title = 'Volunteer accepted';
+            body = '${d.assignedVolunteerName ?? "A volunteer"} is on the way.';
+            break;
+          case DonationStatus.pickedUp:
+            title = 'Food picked up';
+            body = 'Your donation is now moving to the NGO.';
+            break;
+          case DonationStatus.delivered:
+            title = 'Donation complete';
+            body = 'The NGO has received the food safely.';
+            break;
+          default:
+            continue;
+        }
+        await NotificationService.showLocalNotification(title: title, body: body);
+      }
+    });
   }
 
   String _greeting() {
@@ -600,6 +651,35 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
                       Text('Matched NGO: ${d.matchedNGOName}',
                           style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: Color(0xFF00BCD4))),
                     ]),
+                  ],
+                  if (d.assignedVolunteerId != null) ...[
+                    const SizedBox(height: 8),
+                    StreamBuilder<UserModel?>(
+                      stream: FirebaseService.userStream(d.assignedVolunteerId!),
+                      builder: (context, snap) {
+                        final vol = snap.data;
+                        final loc = vol?.location;
+                        if (vol == null || loc == null) return const SizedBox.shrink();
+                        final distKm = LocationService.calculateDistance(
+                          d.pickupLocation.lat,
+                          d.pickupLocation.lng,
+                          loc.lat,
+                          loc.lng,
+                        );
+                        return Row(
+                          children: [
+                            const Icon(Icons.my_location_rounded, size: 14, color: Color(0xFFFF8C42)),
+                            const SizedBox(width: 5),
+                            Expanded(
+                              child: Text(
+                                'Live tracking: ${vol.name} is ${LocationService.formatDistance(distKm)} away',
+                                style: const TextStyle(fontSize: 11, color: Color(0xFFFFB085), fontWeight: FontWeight.w700),
+                              ),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
                   ],
                 ],
               ),

@@ -101,10 +101,50 @@ class FirebaseService {
     await _db.collection('donations').doc(donationId).update(data);
   }
 
+  /// Enqueues server-side matching. Firebase Functions owns retries so they
+  /// continue after the donor, NGO, or volunteer app has been closed.
+  static Future<void> requestVolunteerSearch({
+    required String donationId,
+    required String ngoId,
+    required String ngoName,
+  }) async {
+    final ref = _db.collection('donations').doc(donationId);
+    await _db.runTransaction((tx) async {
+      final snap = await tx.get(ref);
+      if (!snap.exists) throw Exception('Donation not found');
+      final data = snap.data()! as Map<String, dynamic>;
+      if ((data['status'] as String?) != 'available') {
+        throw Exception('This donation has already been claimed');
+      }
+      tx.update(ref, {
+        'status': 'searching',
+        'matchedNGOId': ngoId,
+        'matchedNGOName': ngoName,
+        'assignedVolunteerId': FieldValue.delete(),
+        'assignedVolunteerName': FieldValue.delete(),
+        'attemptedVolunteerIds': <String>[],
+        'matchRequestedAt': FieldValue.serverTimestamp(),
+        'updatedAt': FieldValue.serverTimestamp(),
+      });
+    });
+  }
+
   static Future<void> acceptTask(String donationId) async {
-    await _db.collection('donations').doc(donationId).update({
-      'status': 'accepted',
-      'updatedAt': Timestamp.now(),
+    final docRef = _db.collection('donations').doc(donationId);
+    await _db.runTransaction((tx) async {
+      final snap = await tx.get(docRef);
+      if (!snap.exists) throw Exception('Donation not found');
+
+      final data = snap.data()!;
+      final currentStatus = data['status'] as String? ?? 'available';
+      if (currentStatus != 'matched') {
+        throw Exception('Task is no longer available for acceptance');
+      }
+
+      tx.update(docRef, {
+        'status': _statusToString(DonationStatus.accepted),
+        'updatedAt': Timestamp.now(),
+      });
     });
   }
 
@@ -141,7 +181,7 @@ class FirebaseService {
           isFullyDelivered = true;
           tx.update(docRef, {
             'volunteerDroppedOff': true,
-            'status': 'delivered',
+            'status': _statusToString(DonationStatus.delivered),
             'updatedAt': FieldValue.serverTimestamp(),
           });
         } else {
@@ -188,7 +228,7 @@ class FirebaseService {
           isFullyDelivered = true;
           tx.update(docRef, {
             'ngoReceived': true,
-            'status': 'delivered',
+            'status': _statusToString(DonationStatus.delivered),
             'updatedAt': FieldValue.serverTimestamp(),
           });
         } else {
@@ -291,7 +331,7 @@ class FirebaseService {
   static Stream<List<DonationModel>> allActiveDonationsStream() {
     return _db
         .collection('donations')
-        .where('status', whereIn: ['available', 'matched'])
+        .where('status', whereIn: ['available', 'searching', 'matched'])
         .snapshots()
         .map((snap) {
       final now = DateTime.now();
@@ -658,6 +698,8 @@ class FirebaseService {
 
   static String _statusToString(DonationStatus s) {
     switch (s) {
+      case DonationStatus.searching:
+        return 'searching';
       case DonationStatus.matched:
         return 'matched';
       case DonationStatus.accepted:

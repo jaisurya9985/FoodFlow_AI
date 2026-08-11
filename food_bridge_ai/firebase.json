@@ -1,5 +1,27 @@
 {
-  "firestore": {
-    "rules": "firestore.rules"
+  "firestore": { "rules": "firestore.rules" },
+  "functions": { "source": "functions" },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "food-bridge-8a76e",
+          "appId": "1:347714112681:android:0ee1001d69ee323389adb8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "food-bridge-8a76e",
+          "configurations": {
+            "android": "1:347714112681:android:0ee1001d69ee323389adb8",
+            "ios": "1:347714112681:ios:10312d3e37b7f74989adb8",
+            "macos": "1:347714112681:ios:10312d3e37b7f74989adb8",
+            "web": "1:347714112681:web:19ee164f07c5920689adb8",
+            "windows": "1:347714112681:web:698680a158f9003389adb8"
+          }
+        }
+      }
+    }
   }
 }

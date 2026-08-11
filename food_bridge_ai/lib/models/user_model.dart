@@ -45,7 +45,7 @@ class UserModel {
     this.rating = 5.0,
     this.deliveriesDone = 0,
     this.hasVehicle = false,
-    this.isAvailable = true,
+    this.isAvailable = false,
     this.points = 0,
     this.fcmToken,
     required this.createdAt,
@@ -66,7 +66,8 @@ class UserModel {
       rating: (data['rating'] as num?)?.toDouble() ?? 5.0,
       deliveriesDone: (data['deliveriesDone'] as num?)?.toInt() ?? 0,
       hasVehicle: data['hasVehicle'] ?? false,
-      isAvailable: data['isAvailable'] ?? true,
+      // Volunteers must explicitly go online for each app session.
+      isAvailable: data['isAvailable'] ?? false,
       points: (data['points'] as num?)?.toInt() ?? 0,
       fcmToken: data['fcmToken'],
       createdAt: (data['createdAt'] as Timestamp?)?.toDate() ?? DateTime.now(),

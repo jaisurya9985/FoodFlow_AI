@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import '../../models/donation_model.dart';
+import '../../models/user_model.dart';
 import '../../providers/donation_provider.dart';
+import '../../services/firebase_service.dart';
+import '../../services/location_service.dart';
 import '../../utils/app_colors.dart';
 import '../../widgets/countdown_timer.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -95,10 +99,7 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
   Widget build(BuildContext context) {
     final d = widget.donation;
     final pickupLatLng = LatLng(d.pickupLocation.lat, d.pickupLocation.lng);
-    final deliveryLatLng = LatLng(
-      d.pickupLocation.lat + 0.01,
-      d.pickupLocation.lng + 0.01,
-    );
+    final currentUid = FirebaseAuth.instance.currentUser?.uid ?? '';
 
     return Scaffold(
       backgroundColor: AppColors.cream,
@@ -115,63 +116,154 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
         children: [
           // Map
           Expanded(
-            flex: 3,
-            child: FlutterMap(
-              options: MapOptions(
-                initialCenter: pickupLatLng,
-                initialZoom: 14,
-              ),
-              children: [
-                TileLayer(
-                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                  userAgentPackageName: 'com.example.food_bridge_ai',
-                ),
-                PolylineLayer(
-                  polylines: [
-                    Polyline(
-                      points: [pickupLatLng, deliveryLatLng],
-                      color: AppColors.forestGreen,
-                      strokeWidth: 4,
-                    ),
-                  ],
-                ),
-                MarkerLayer(
-                  markers: [
-                    Marker(
-                      point: pickupLatLng,
-                      width: 40,
-                      height: 40,
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          color: AppColors.amber,
-                          shape: BoxShape.circle,
+            flex: 4,
+            child: StreamBuilder<UserModel?>(
+              stream: currentUid.isEmpty ? Stream<UserModel?>.empty() : FirebaseService.userStream(currentUid),
+              builder: (context, volunteerSnap) {
+                final volunteerLocation = volunteerSnap.data?.location;
+                final currentLatLng = volunteerLocation == null
+                    ? pickupLatLng
+                    : LatLng(volunteerLocation.lat, volunteerLocation.lng);
+
+                return StreamBuilder<UserModel?>(
+                  stream: d.matchedNGOId == null
+                      ? Stream<UserModel?>.empty()
+                      : FirebaseService.userStream(d.matchedNGOId!),
+                  builder: (context, ngoSnap) {
+                    final ngoLocation = ngoSnap.data?.location;
+                    final ngoLatLng = ngoLocation == null
+                        ? null
+                        : LatLng(ngoLocation.lat, ngoLocation.lng);
+
+                    final routePoints = <LatLng>[
+                      currentLatLng,
+                      if (d.status == DonationStatus.pickedUp && ngoLatLng != null)
+                        ngoLatLng
+                      else
+                        pickupLatLng,
+                    ];
+
+                    return Stack(
+                      children: [
+                        FlutterMap(
+                          options: MapOptions(
+                            initialCenter: currentLatLng,
+                            initialZoom: 13.5,
+                          ),
+                          children: [
+                            TileLayer(
+                              urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                              userAgentPackageName: 'com.example.food_bridge_ai',
+                            ),
+                            PolylineLayer(
+                              polylines: [
+                                Polyline(
+                                  points: routePoints,
+                                  color: AppColors.forestGreen,
+                                  strokeWidth: 4,
+                                ),
+                              ],
+                            ),
+                            MarkerLayer(
+                              markers: [
+                                Marker(
+                                  point: pickupLatLng,
+                                  width: 44,
+                                  height: 44,
+                                  child: Container(
+                                    decoration: const BoxDecoration(
+                                      color: AppColors.amber,
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: const Icon(
+                                      Icons.restaurant_rounded,
+                                      color: Colors.white,
+                                      size: 20,
+                                    ),
+                                  ),
+                                ),
+                                if (ngoLatLng != null)
+                                  Marker(
+                                    point: ngoLatLng,
+                                    width: 44,
+                                    height: 44,
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        color: AppColors.mossGreen,
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: const Icon(
+                                        Icons.volunteer_activism_rounded,
+                                        color: Colors.white,
+                                        size: 20,
+                                      ),
+                                    ),
+                                  ),
+                                Marker(
+                                  point: currentLatLng,
+                                  width: 44,
+                                  height: 44,
+                                  child: Container(
+                                    decoration: const BoxDecoration(
+                                      color: AppColors.forestGreen,
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: const Icon(
+                                      Icons.delivery_dining_rounded,
+                                      color: Colors.white,
+                                      size: 20,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
-                        child: const Icon(
-                          Icons.restaurant_rounded,
-                          color: Colors.white,
-                          size: 20,
+                        Positioned(
+                          top: 16,
+                          left: 16,
+                          right: 16,
+                          child: Container(
+                            padding: const EdgeInsets.all(14),
+                            decoration: BoxDecoration(
+                              color: Colors.white.withOpacity(0.92),
+                              borderRadius: BorderRadius.circular(18),
+                              boxShadow: const [
+                                BoxShadow(color: Color(0x22000000), blurRadius: 12, offset: Offset(0, 4)),
+                              ],
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  d.status == DonationStatus.pickedUp
+                                      ? 'Head to NGO drop-off'
+                                      : 'Navigate to donor pickup',
+                                  style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.textDark),
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  d.status == DonationStatus.pickedUp
+                                      ? 'Pickup done. Take the shortest path to the NGO now.'
+                                      : 'Follow the route to collect the food from the donor.',
+                                  style: const TextStyle(fontSize: 11, color: AppColors.textMedium),
+                                ),
+                                if (volunteerLocation != null) ...[
+                                  const SizedBox(height: 8),
+                                  Text(
+                                    'Distance to pickup: ${LocationService.formatDistance(LocationService.calculateDistance(currentLatLng.latitude, currentLatLng.longitude, pickupLatLng.latitude, pickupLatLng.longitude))}',
+                                    style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: AppColors.mossGreen),
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                    Marker(
-                      point: deliveryLatLng,
-                      width: 40,
-                      height: 40,
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          color: AppColors.forestGreen,
-                          shape: BoxShape.circle,
-                        ),
-                        child: const Icon(
-                          Icons.volunteer_activism_rounded,
-                          color: Colors.white,
-                          size: 20,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+                      ],
+                    );
+                  },
+                );
+              },
             ),
           ),
 
@@ -237,6 +329,30 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
                       address: d.matchedNGOName ?? 'NGO Location',
                     ),
                   ]),
+                ),
+
+                const SizedBox(height: 16),
+
+                StreamBuilder<UserModel?>(
+                  stream: d.matchedNGOId == null ? Stream<UserModel?>.empty() : FirebaseService.userStream(d.matchedNGOId!),
+                  builder: (context, ngoSnap) {
+                    final ngoLoc = ngoSnap.data?.location;
+                    if (ngoLoc == null) {
+                      return const SizedBox.shrink();
+                    }
+                    return Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: AppColors.surfaceGrey,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        'NGO route ready. The drop-off map will follow ${d.matchedNGOName ?? "the NGO"} as soon as pickup is marked complete.',
+                        style: const TextStyle(fontSize: 12, color: AppColors.textDark, height: 1.4),
+                      ),
+                    );
+                  },
                 ),
 
                 const SizedBox(height: 16),

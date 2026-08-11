@@ -37,6 +37,14 @@ class AuthProvider extends ChangeNotifier {
     } else {
       // Load user model BEFORE notifying that we are authenticated
       await _loadUserModel(user.uid);
+
+      // A volunteer is never implicitly available after logging in. They must
+      // deliberately use the Online switch on their dashboard before they can
+      // be considered by the matcher.
+      if (_userModel?.role == UserRole.volunteer) {
+        await FirebaseService.updateAvailability(user.uid, false);
+        _userModel = _userModel?.copyWith(isAvailable: false);
+      }
       _status = AuthStatus.authenticated;
       
       // Token saving is safe here, but permissions are now deferred to the Dashboard
@@ -183,6 +191,10 @@ class AuthProvider extends ChangeNotifier {
     }
     
     try {
+      // Remove volunteers from the matching pool before their session ends.
+      if (_firebaseUser != null && _userModel?.role == UserRole.volunteer) {
+        await FirebaseService.updateAvailability(_firebaseUser!.uid, false);
+      }
       await _auth.signOut();
       _userModel = null;
       _status = AuthStatus.unauthenticated;

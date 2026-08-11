@@ -58,7 +58,32 @@ class DonationProvider extends ChangeNotifier {
     }
   }
 
-  // NGO claims a donation
+  // NGO starts a server-side volunteer search.
+  Future<bool> requestVolunteerSearch({
+    required String donationId,
+    required String ngoId,
+    required String ngoName,
+  }) async {
+    _isLoading = true;
+    _error = null;
+    notifyListeners();
+    try {
+      await FirebaseService.requestVolunteerSearch(
+        donationId: donationId,
+        ngoId: ngoId,
+        ngoName: ngoName,
+      );
+      return true;
+    } catch (_) {
+      _error = 'Could not start volunteer search.';
+      return false;
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  // Legacy immediate matcher. New claims use requestVolunteerSearch above.
   Future<UserModel?> claimDonation({
     required String donationId,
     required String ngoId,

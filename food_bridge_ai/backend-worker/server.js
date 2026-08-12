@@ -87,7 +87,10 @@ async function assignNextVolunteer(donationRef) {
       return da - dbDist || (b.rating || 0) - (a.rating || 0);
     });
 
-  if (!choices.length) return false;
+  if (!choices.length) {
+    console.log(`[Donation ${donationRef.id}] No available volunteers found (attempted: ${attempted.size}).`);
+    return false;
+  }
 
   const volunteer = choices[0];
   const deadline = Timestamp.fromMillis(Date.now() + ACCEPTANCE_WINDOW_MS);
@@ -113,6 +116,8 @@ async function assignNextVolunteer(donationRef) {
   });
 
   if (!assigned) return false;
+
+  console.log(`[Donation ${donationRef.id}] Successfully assigned volunteer ${volunteer.name || volunteer.id} (deadline: ${deadline.toDate().toISOString()}).`);
 
   await notify(
     volunteer.id,
@@ -193,15 +198,17 @@ async function runMatchingCycle() {
   if (isRunning) return;
   isRunning = true;
 
+  const cycleStart = new Date();
   try {
     await retryExpiredAssignments();
     await assignWaitingDonations();
     await notifyAcceptedDonations();
-    lastRunAt = new Date().toISOString();
+    lastRunAt = cycleStart.toISOString();
     lastRunError = null;
+    console.log(`[${lastRunAt}] Matching cycle completed successfully.`);
   } catch (error) {
     lastRunError = error.message || String(error);
-    console.error('Matching cycle failed:', error);
+    console.error(`[${new Date().toISOString()}] Matching cycle failed:`, error);
   } finally {
     isRunning = false;
   }

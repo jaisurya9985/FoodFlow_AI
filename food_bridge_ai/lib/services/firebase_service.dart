@@ -101,7 +101,7 @@ class FirebaseService {
     await _db.collection('donations').doc(donationId).update(data);
   }
 
-  /// Enqueues server-side matching. Firebase Functions owns retries so they
+  /// Enqueues server-side matching. The backend worker owns retries so they
   /// continue after the donor, NGO, or volunteer app has been closed.
   static Future<void> requestVolunteerSearch({
     required String donationId,
@@ -302,7 +302,7 @@ class FirebaseService {
     try {
       final snap = await _db
           .collection('donations')
-          .where('status', whereIn: ['available', 'matched'])
+          .where('status', whereIn: ['available', 'searching', 'matched'])
           .get();
           
       final batch = _db.batch();

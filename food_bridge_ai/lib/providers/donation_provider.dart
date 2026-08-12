@@ -136,13 +136,17 @@ class DonationProvider extends ChangeNotifier {
 
       if (matches.isNotEmpty) {
         final bestId = matches.first['vol_id'] as String;
-        bestVolunteer = availableVolunteers
-            .where((v) => v.uid == bestId)
-            .firstOrNull;
+        for (final volunteer in availableVolunteers) {
+          if (volunteer.uid == bestId) {
+            bestVolunteer = volunteer;
+            break;
+          }
+        }
       }
-      
+
       // Fallback if ML didn't return a valid ID or no matches
-      bestVolunteer ??= availableVolunteers.isNotEmpty ? availableVolunteers.first : null;
+      bestVolunteer ??=
+          availableVolunteers.isNotEmpty ? availableVolunteers.first : null;
 
       if (bestVolunteer == null) {
         _error = 'Could not find a suitable volunteer.';

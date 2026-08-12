@@ -514,8 +514,8 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
 
   Color get _statusColor {
     switch (widget.donation.status) {
-      case DonationStatus.matched: return const Color(0xFF00BCD4);
-      case DonationStatus.accepted: return const Color(0xFF9C6FFF);
+      case DonationStatus.matched: return const Color(0xFFFF8C42);
+      case DonationStatus.accepted: return const Color(0xFF00BCD4);
       case DonationStatus.pickedUp: return const Color(0xFF9C6FFF);
       case DonationStatus.delivered: return const Color(0xFF00E5A0);
       default: return const Color(0xFFFF8C42);
@@ -524,7 +524,7 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
 
   IconData get _statusIcon {
     switch (widget.donation.status) {
-      case DonationStatus.matched: return Icons.handshake_rounded;
+      case DonationStatus.matched: return Icons.search_rounded;
       case DonationStatus.accepted: return Icons.check_circle_rounded;
       case DonationStatus.pickedUp: return Icons.delivery_dining_rounded;
       case DonationStatus.delivered: return Icons.favorite_rounded;
@@ -534,7 +534,7 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
 
   String get _statusLabel {
     switch (widget.donation.status) {
-      case DonationStatus.matched: return 'NGO Claimed ✓';
+      case DonationStatus.matched: return 'Searching for Vol.';
       case DonationStatus.accepted: return 'Volunteer Accepted ✓';
       case DonationStatus.pickedUp: return 'On the Way 🚴';
       case DonationStatus.delivered: return 'Delivered 💚';
@@ -545,6 +545,10 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
   @override
   Widget build(BuildContext context) {
     final d = widget.donation;
+    final isVolunteerAccepted = d.status == DonationStatus.accepted ||
+        d.status == DonationStatus.pickedUp ||
+        d.status == DonationStatus.delivered;
+
     return GestureDetector(
       onTap: () => setState(() => _expanded = !_expanded),
       child: AnimatedContainer(
@@ -652,7 +656,7 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
                           style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: Color(0xFF00BCD4))),
                     ]),
                   ],
-                  if (d.assignedVolunteerId != null) ...[
+                  if (isVolunteerAccepted && d.assignedVolunteerId != null) ...[
                     const SizedBox(height: 8),
                     StreamBuilder<UserModel?>(
                       stream: FirebaseService.userStream(d.assignedVolunteerId!),

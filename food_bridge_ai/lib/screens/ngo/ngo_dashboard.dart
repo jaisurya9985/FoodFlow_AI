@@ -702,12 +702,12 @@ class _FindingVolunteerDialogState extends State<_FindingVolunteerDialog> {
             final status = data?['status'] ?? 'available';
             final volName = data?['assignedVolunteerName'] ?? 'a volunteer';
 
-            if (status == 'matched') {
-              title = 'Volunteer Found!';
-              subTitle = 'Waiting for $volName to accept the task...';
+            if (status == 'matched' || status == 'searching') {
+              title = 'Searching for volunteer...';
+              subTitle = 'AI is finding nearby volunteers...';
             } else if (status == 'accepted' || status == 'picked_up') {
-              title = 'Accepted!';
-              subTitle = '$volName is on the way to pick up the food!';
+              title = 'Volunteer Assigned!';
+              subTitle = '$volName accepted and is on the way to pick up!';
               showLoading = false;
               // Auto-close after a delay
               Future.delayed(const Duration(seconds: 2), () {
@@ -786,10 +786,11 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
 
     switch (d.status) {
       case DonationStatus.searching:
-        statusLabel = 'Searching';
+      case DonationStatus.matched:
+        statusLabel = 'Searching for Vol.';
         statusColor = AppColors.amber;
         break;
-      case DonationStatus.matched:
+      case DonationStatus.accepted:
         statusLabel = 'Volunteer Assigned';
         statusColor = AppColors.teal;
         break;
@@ -805,6 +806,10 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
         statusLabel = 'Available';
         statusColor = AppColors.amber;
     }
+
+    final isVolunteerAccepted = d.status == DonationStatus.accepted ||
+        d.status == DonationStatus.pickedUp ||
+        d.status == DonationStatus.delivered;
 
     return Container(
       padding: const EdgeInsets.all(14),
@@ -828,7 +833,7 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
                 Text(d.title,
                     style: const TextStyle(
                         fontSize: 13, fontWeight: FontWeight.w700)),
-                if (d.assignedVolunteerName != null)
+                if (isVolunteerAccepted && d.assignedVolunteerName != null)
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -894,6 +899,14 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
                           },
                         ),
                     ],
+                  )
+                else if (!isVolunteerAccepted && (d.status == DonationStatus.searching || d.status == DonationStatus.matched))
+                  const Padding(
+                    padding: EdgeInsets.only(top: 2),
+                    child: Text(
+                      '🔍 Finding volunteer...',
+                      style: TextStyle(fontSize: 11, color: AppColors.amber),
+                    ),
                   ),
               ],
             ),

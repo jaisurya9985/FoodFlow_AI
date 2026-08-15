@@ -173,7 +173,7 @@ class AuthProvider extends ChangeNotifier {
   Future<void> selectRole(UserRole role) async {
     if (_firebaseUser == null) return;
     await FirebaseService.updateUser(_firebaseUser!.uid, {'role': role.name});
-    _userModel = _userModel?.copyWith();
+    _userModel = await FirebaseService.getUser(_firebaseUser!.uid);
     notifyListeners();
   }
 

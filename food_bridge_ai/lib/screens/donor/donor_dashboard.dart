@@ -6,13 +6,14 @@ import '../../models/donation_model.dart';
 import '../../providers/auth_provider.dart' as app_auth;
 import '../../providers/donation_provider.dart';
 import '../../services/firebase_service.dart';
-import '../../services/location_service.dart';
 import '../../services/notification_service.dart';
 import '../../models/user_model.dart';
 import '../../widgets/shimmer_list.dart';
 import '../../widgets/empty_state_widget.dart';
 import '../../widgets/risk_badge.dart';
 import '../../widgets/countdown_timer.dart';
+import '../../widgets/rate_volunteer_button.dart';
+import '../../widgets/delivery_tracker_widget.dart';
 import 'donation_form.dart';
 
 class DonorDashboard extends StatefulWidget {
@@ -656,33 +657,22 @@ class _DonorDonationCardState extends State<_DonorDonationCard> {
                           style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: Color(0xFF00BCD4))),
                     ]),
                   ],
-                  if (isVolunteerAccepted && d.assignedVolunteerId != null) ...[
-                    const SizedBox(height: 8),
-                    StreamBuilder<UserModel?>(
-                      stream: FirebaseService.userStream(d.assignedVolunteerId!),
-                      builder: (context, snap) {
-                        final vol = snap.data;
-                        final loc = vol?.location;
-                        if (vol == null || loc == null) return const SizedBox.shrink();
-                        final distKm = LocationService.calculateDistance(
-                          d.pickupLocation.lat,
-                          d.pickupLocation.lng,
-                          loc.lat,
-                          loc.lng,
-                        );
-                        return Row(
-                          children: [
-                            const Icon(Icons.my_location_rounded, size: 14, color: Color(0xFFFF8C42)),
-                            const SizedBox(width: 5),
-                            Expanded(
-                              child: Text(
-                                'Live tracking: ${vol.name} is ${LocationService.formatDistance(distKm)} away',
-                                style: const TextStyle(fontSize: 11, color: Color(0xFFFFB085), fontWeight: FontWeight.w700),
-                              ),
-                            ),
-                          ],
-                        );
-                      },
+                  if (isVolunteerAccepted && d.status != DonationStatus.delivered) ...[
+                    DeliveryTrackerWidget(donation: d),
+                  ],
+                  if (d.status == DonationStatus.delivered && d.assignedVolunteerId != null) ...[
+                    const SizedBox(height: 10),
+                    Row(
+                      children: [
+                        const Text('Rate Volunteer:', style: TextStyle(fontSize: 12, color: Color(0xFF8A6F5A))),
+                        const SizedBox(width: 8),
+                        RateVolunteerButton(
+                          volunteerId: d.assignedVolunteerId ?? '',
+                          volunteerName: d.assignedVolunteerName ?? 'Volunteer',
+                          donationId: d.id,
+                          isAlreadyRated: d.isRated,
+                        ),
+                      ],
                     ),
                   ],
                 ],

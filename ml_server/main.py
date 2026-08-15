@@ -12,7 +12,7 @@ app = FastAPI(title="FoodBridge AI ML Server", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -96,7 +96,7 @@ def fallback_food_risk(category: str, temp: float, time_since_cooked: float, max
         safe_hours = 4.0 if temp < 30 else 2.0
         perishable_exposure_score = time_since_cooked / safe_hours
 
-    combined_risk_score = shelf_used_ratio * 0.4 + temp_danger_score * 0.3 + perishable_exposure_score * 0.6
+    combined_risk_score = shelf_used_ratio * 0.35 + temp_danger_score * 0.3 + perishable_exposure_score * 0.35
 
     if is_perishable and time_since_cooked > 6.0 and temp > 20:
         combined_risk_score = max(combined_risk_score, 1.0)

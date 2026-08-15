@@ -150,7 +150,7 @@ async function retryExpiredAssignments() {
 
     if (expiryOf(data) <= now) {
       await doc.ref.update({
-        status: 'available',
+        status: 'expired',
         assignedVolunteerId: FieldValue.delete(),
         assignedVolunteerName: FieldValue.delete(),
         assignmentDeadline: FieldValue.delete(),

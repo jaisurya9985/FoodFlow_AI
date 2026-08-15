@@ -54,7 +54,10 @@ class DonationProvider extends ChangeNotifier {
       notifyListeners();
       return id;
     } catch (e) {
-      throw Exception('Failed to post donation');
+      _error = 'Failed to post donation';
+      _isLoading = false;
+      notifyListeners();
+      return null;
     }
   }
 
@@ -204,11 +207,18 @@ class DonationProvider extends ChangeNotifier {
   Future<bool> rateVolunteer({
     required String volunteerId,
     required double rating,
+    String? donationId,
   }) async {
     try {
-      await FirebaseService.updateVolunteerRating(volunteerId, rating);
+      await FirebaseService.updateVolunteerRating(
+        volunteerId,
+        rating,
+        donationId: donationId,
+      );
+      notifyListeners();
       return true;
     } catch (e) {
+      debugPrint('rateVolunteer error: $e');
       _error = 'Failed to submit rating.';
       notifyListeners();
       return false;
@@ -216,9 +226,13 @@ class DonationProvider extends ChangeNotifier {
   }
 
   // Volunteer accepts a task
-  Future<bool> acceptTask(String donationId) async {
+  Future<bool> acceptTask(String donationId, {String? volunteerId, String? volunteerName}) async {
     try {
-      await FirebaseService.acceptTask(donationId);
+      await FirebaseService.acceptTask(
+        donationId,
+        volunteerId: volunteerId,
+        volunteerName: volunteerName,
+      );
       return true;
     } catch (e) {
       _error = 'Failed to accept task.';

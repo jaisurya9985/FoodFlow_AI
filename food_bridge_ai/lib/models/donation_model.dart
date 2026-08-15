@@ -118,6 +118,8 @@ class DonationModel {
   final DateTime updatedAt;
   final bool volunteerDroppedOff;
   final bool ngoReceived;
+  final bool isRated;
+  final double? rating;
 
   const DonationModel({
     required this.id,
@@ -144,6 +146,8 @@ class DonationModel {
     required this.updatedAt,
     this.volunteerDroppedOff = false,
     this.ngoReceived = false,
+    this.isRated = false,
+    this.rating,
   });
 
   factory DonationModel.fromFirestore(DocumentSnapshot doc) {
@@ -179,6 +183,8 @@ class DonationModel {
       updatedAt: (data['updatedAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
       volunteerDroppedOff: data['volunteerDroppedOff'] ?? false,
       ngoReceived: data['ngoReceived'] ?? false,
+      isRated: data['isRated'] ?? false,
+      rating: (data['rating'] as num?)?.toDouble(),
     );
   }
 
@@ -206,6 +212,8 @@ class DonationModel {
         'updatedAt': Timestamp.fromDate(updatedAt),
         'volunteerDroppedOff': volunteerDroppedOff,
         'ngoReceived': ngoReceived,
+        'isRated': isRated,
+        if (rating != null) 'rating': rating,
       };
 
   DateTime get expiryTime => expiresAt;
@@ -230,6 +238,8 @@ class DonationModel {
     String? matchedNGOName,
     String? assignedVolunteerId,
     String? assignedVolunteerName,
+    bool? isRated,
+    double? rating,
   }) {
     return DonationModel(
       id: id,
@@ -256,6 +266,8 @@ class DonationModel {
       updatedAt: DateTime.now(),
       volunteerDroppedOff: volunteerDroppedOff,
       ngoReceived: ngoReceived,
+      isRated: isRated ?? this.isRated,
+      rating: rating ?? this.rating,
     );
   }
 

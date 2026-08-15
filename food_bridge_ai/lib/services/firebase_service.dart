@@ -129,7 +129,7 @@ class FirebaseService {
     });
   }
 
-  static Future<void> acceptTask(String donationId) async {
+  static Future<void> acceptTask(String donationId, {String? volunteerId, String? volunteerName}) async {
     final docRef = _db.collection('donations').doc(donationId);
     await _db.runTransaction((tx) async {
       final snap = await tx.get(docRef);
@@ -137,20 +137,28 @@ class FirebaseService {
 
       final data = snap.data()!;
       final currentStatus = data['status'] as String? ?? 'available';
-      if (currentStatus != 'matched') {
+      if (currentStatus != 'matched' && currentStatus != 'searching' && currentStatus != 'available') {
         throw Exception('Task is no longer available for acceptance');
       }
 
-      tx.update(docRef, {
+      final updateData = <String, dynamic>{
         'status': _statusToString(DonationStatus.accepted),
         'updatedAt': Timestamp.now(),
-      });
+      };
+      if (volunteerId != null && volunteerId.isNotEmpty) {
+        updateData['assignedVolunteerId'] = volunteerId;
+      }
+      if (volunteerName != null && volunteerName.isNotEmpty) {
+        updateData['assignedVolunteerName'] = volunteerName;
+      }
+
+      tx.update(docRef, updateData);
     });
   }
 
   static Future<void> declineTask(String donationId) async {
     await _db.collection('donations').doc(donationId).update({
-      'status': 'matched',
+      'status': 'searching',
       'assignedVolunteerId': FieldValue.delete(),
       'assignedVolunteerName': FieldValue.delete(),
       'updatedAt': Timestamp.now(),
@@ -310,8 +318,11 @@ class FirebaseService {
       
       for (var doc in snap.docs) {
         final data = doc.data();
-        final createdAt = (data['createdAt'] as Timestamp).toDate();
-        final expiry = (data['expiryMinutes'] as num).toInt();
+        final createdAtRaw = data['createdAt'];
+        final expiryRaw = data['expiryMinutes'];
+        if (createdAtRaw == null || expiryRaw == null) continue;
+        final createdAt = (createdAtRaw as Timestamp).toDate();
+        final expiry = (expiryRaw as num).toInt();
         
         if (createdAt.add(Duration(minutes: expiry)).isBefore(now)) {
           batch.delete(doc.reference);
@@ -438,24 +449,47 @@ class FirebaseService {
     await batch.commit();
   }
 
-  static Future<void> updateVolunteerRating(String uid, double newStar) async {
-    final doc = await _db.collection('users').doc(uid).get();
-    if (!doc.exists) return;
-    final user = UserModel.fromFirestore(doc);
-    
-    // Calculate new average
-    // If it's their first rating, we replace the default 5.0
-    // Otherwise we average it in.
-    double updatedRating;
-    if (user.deliveriesDone == 0) {
-      updatedRating = newStar;
-    } else {
-      updatedRating = ((user.rating * user.deliveriesDone) + newStar) / (user.deliveriesDone + 1);
+  static Future<void> updateVolunteerRating(
+    String uid,
+    double newStar, {
+    String? donationId,
+  }) async {
+    if (uid.isNotEmpty) {
+      try {
+        final doc = await _db.collection('users').doc(uid).get();
+        if (doc.exists) {
+          final user = UserModel.fromFirestore(doc);
+          
+          double updatedRating;
+          // awardImpact increments deliveriesDone before this runs,
+          // so use (deliveriesDone - 1) for the count of previous deliveries.
+          final previousCount = user.deliveriesDone > 0 ? user.deliveriesDone - 1 : 0;
+          if (previousCount == 0) {
+            updatedRating = newStar;
+          } else {
+            updatedRating = ((user.rating * previousCount) + newStar) / (previousCount + 1);
+          }
+
+          await _db.collection('users').doc(uid).update({
+            'rating': updatedRating,
+          });
+        }
+      } catch (e) {
+        debugPrint('Failed to update volunteer user rating: $e');
+      }
     }
 
-    await _db.collection('users').doc(uid).update({
-      'rating': updatedRating,
-    });
+    if (donationId != null && donationId.isNotEmpty) {
+      try {
+        await _db.collection('donations').doc(donationId).update({
+          'isRated': true,
+          'rating': newStar,
+          'updatedAt': Timestamp.now(),
+        });
+      } catch (e) {
+        debugPrint('Failed to update donation isRated: $e');
+      }
+    }
   }
 
   // ─── Seed Data ──────────────────────────────────────────────────────────────

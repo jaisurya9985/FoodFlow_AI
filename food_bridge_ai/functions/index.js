@@ -52,8 +52,8 @@ async function assignNextVolunteer(donationRef) {
     .map((doc) => ({ id: doc.id, ...doc.data() }))
     .sort((a, b) => {
       const da = a.location ? distanceKm(pickup, a.location) : Number.MAX_SAFE_INTEGER;
-      const db = b.location ? distanceKm(pickup, b.location) : Number.MAX_SAFE_INTEGER;
-      return da - db || (b.rating || 0) - (a.rating || 0);
+      const dbDist = b.location ? distanceKm(pickup, b.location) : Number.MAX_SAFE_INTEGER;
+      return da - dbDist || (b.rating || 0) - (a.rating || 0);
     });
   if (!choices.length) return false;
 

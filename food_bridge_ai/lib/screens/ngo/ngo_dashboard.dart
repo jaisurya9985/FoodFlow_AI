@@ -12,7 +12,8 @@ import '../../widgets/empty_state_widget.dart';
 import '../../widgets/risk_badge.dart';
 import '../../widgets/countdown_timer.dart';
 import '../../services/notification_service.dart';
-import '../../services/location_service.dart';
+import '../../widgets/rate_volunteer_button.dart';
+import '../../widgets/delivery_tracker_widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
 
@@ -25,6 +26,7 @@ class NGODashboard extends StatefulWidget {
 
 class _NGODashboardState extends State<NGODashboard> {
   List<UserModel> _volunteers = [];
+  StreamSubscription<List<UserModel>>? _volunteersSub;
   StreamSubscription<List<DonationModel>>? _donationSub;
   StreamSubscription<List<DonationModel>>? _statusSub;
   Set<String> _seenDonationIds = {};
@@ -107,13 +109,14 @@ class _NGODashboardState extends State<NGODashboard> {
   }
 
   Future<void> _loadVolunteers() async {
-    FirebaseService.volunteersStream().listen((vols) {
+    _volunteersSub = FirebaseService.volunteersStream().listen((vols) {
       if (mounted) setState(() => _volunteers = vols);
     });
   }
 
   @override
   void dispose() {
+    _volunteersSub?.cancel();
     _donationSub?.cancel();
     _statusSub?.cancel();
     super.dispose();
@@ -822,234 +825,98 @@ class _ActivePickupCardState extends State<_ActivePickupCard> {
           const BoxShadow(color: AppColors.shadowDark, blurRadius: 8, offset: Offset(0, 3)),
         ],
       ),
-      child: Row(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(d.category.icon, style: const TextStyle(fontSize: 22)),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(d.title,
-                    style: const TextStyle(
-                        fontSize: 13, fontWeight: FontWeight.w700)),
-                if (isVolunteerAccepted && d.assignedVolunteerName != null)
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const SizedBox(height: 2),
-                      Text(
-                        '🚴 ${d.assignedVolunteerName}',
-                        style: const TextStyle(
-                            fontSize: 11, color: AppColors.textMedium),
-                      ),
-                      if (d.assignedVolunteerId != null)
-                        StreamBuilder<UserModel?>(
-                          stream: FirebaseService.userStream(d.assignedVolunteerId!),
-                          builder: (context, snap) {
-                            if (!snap.hasData) return const SizedBox.shrink();
-                            final volUser = snap.data!;
-                            
-                            Widget distanceWidget = const SizedBox.shrink();
-                            if (volUser.location != null) {
-                              final distKm = LocationService.calculateDistance(
-                                d.pickupLocation.lat,
-                                d.pickupLocation.lng,
-                                volUser.location!.lat,
-                                volUser.location!.lng,
-                              );
-                              distanceWidget = Padding(
-                                padding: const EdgeInsets.only(top: 4),
-                                child: Row(
-                                  children: [
-                                    const Icon(Icons.location_on, size: 12, color: AppColors.amber),
-                                    const SizedBox(width: 4),
-                                    Text(
-                                      'Live: ${LocationService.formatDistance(distKm)}',
-                                      style: const TextStyle(
-                                        fontSize: 11,
-                                        color: AppColors.amber,
-                                        fontWeight: FontWeight.w700,
-                                      ),
-                                    ).animate(onPlay: (controller) => controller.repeat(reverse: true))
-                                     .fade(begin: 1.0, end: 0.5, duration: 1.seconds),
-                                  ],
-                                ),
-                              );
-                            }
-
-                            return Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                if (volUser.phone.isNotEmpty)
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 2),
-                                    child: Text(
-                                      '📞 ${volUser.phone}',
-                                      style: const TextStyle(
-                                        fontSize: 12, 
-                                        color: AppColors.mossGreen,
-                                        fontWeight: FontWeight.w600,
-                                      ),
-                                    ),
-                                  ),
-                                distanceWidget,
-                              ],
-                            );
-                          },
-                        ),
-                    ],
-                  )
-                else if (!isVolunteerAccepted && (d.status == DonationStatus.searching || d.status == DonationStatus.matched))
-                  const Padding(
-                    padding: EdgeInsets.only(top: 2),
-                    child: Text(
-                      '🔍 Finding volunteer...',
-                      style: TextStyle(fontSize: 11, color: AppColors.amber),
+          // Top Header Row
+          Row(
+            children: [
+              Text(d.category.icon, style: const TextStyle(fontSize: 22)),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      d.title,
+                      style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Colors.white),
                     ),
-                  ),
-              ],
-            ),
-          ),
-          
-          if (d.status == DonationStatus.pickedUp && !d.ngoReceived)
-            InkWell(
-              onTap: _confirming ? null : _confirmReceipt,
-              borderRadius: BorderRadius.circular(20),
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                    const SizedBox(height: 2),
+                    Text(
+                      '${d.quantityKg.toStringAsFixed(0)} kg · ${d.category.displayName}',
+                      style: const TextStyle(fontSize: 11, color: AppColors.textMedium),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 decoration: BoxDecoration(
-                  gradient: const LinearGradient(colors: AppColors.mintGradient),
+                  color: statusColor.withOpacity(0.18),
                   borderRadius: BorderRadius.circular(20),
-                  boxShadow: [BoxShadow(color: AppColors.mossGreen.withOpacity(0.3), blurRadius: 8)],
+                  border: Border.all(color: statusColor.withOpacity(0.35), width: 1),
                 ),
-                child: _confirming 
-                  ? const SizedBox(width: 14, height: 14, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.black))
-                  : const Text('Confirm Receipt', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: Colors.black)),
+                child: Text(
+                  statusLabel,
+                  style: TextStyle(
+                    fontSize: 11,
+                    fontWeight: FontWeight.w700,
+                    color: statusColor,
+                  ),
+                ),
               ),
-            )
-          else
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-              decoration: BoxDecoration(
-                color: statusColor.withOpacity(0.18),
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: statusColor.withOpacity(0.35), width: 1),
-              ),
+            ],
+          ),
+
+          // Live Tracker Widget (Full Width)
+          if (isVolunteerAccepted && d.status != DonationStatus.delivered) ...[
+            DeliveryTrackerWidget(donation: d),
+          ] else if (!isVolunteerAccepted && (d.status == DonationStatus.searching || d.status == DonationStatus.matched)) ...[
+            const Padding(
+              padding: EdgeInsets.only(top: 8),
               child: Text(
-                statusLabel,
-                style: TextStyle(
-                  fontSize: 11,
-                  fontWeight: FontWeight.w700,
-                  color: statusColor,
-                ),
+                '🔍 Finding volunteer...',
+                style: TextStyle(fontSize: 11, color: AppColors.amber),
               ),
             ),
-            
-          if (d.status == DonationStatus.delivered) ...[
-            const SizedBox(width: 8),
-            _RateVolunteerButton(
-              volunteerId: d.assignedVolunteerId ?? '',
-              volunteerName: d.assignedVolunteerName ?? 'Volunteer',
-              donationId: d.id,
+          ],
+
+          // Bottom Action Row
+          if (d.status == DonationStatus.pickedUp && !d.ngoReceived) ...[
+            const SizedBox(height: 10),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: _confirming ? null : _confirmReceipt,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.mossGreen,
+                  foregroundColor: Colors.black,
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                ),
+                child: _confirming
+                    ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.black))
+                    : const Text('Confirm Receipt', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800)),
+              ),
+            ),
+          ] else if (d.status == DonationStatus.delivered) ...[
+            const SizedBox(height: 10),
+            Row(
+              children: [
+                const Text('Rate Volunteer:', style: TextStyle(fontSize: 12, color: AppColors.textMedium)),
+                const SizedBox(width: 8),
+                RateVolunteerButton(
+                  volunteerId: d.assignedVolunteerId ?? '',
+                  volunteerName: d.assignedVolunteerName ?? 'Volunteer',
+                  donationId: d.id,
+                  isAlreadyRated: d.isRated,
+                ),
+              ],
             ),
           ],
         ],
       ),
-    );
-  }
-}
-
-class _RateVolunteerButton extends StatefulWidget {
-  final String volunteerId;
-  final String volunteerName;
-  final String donationId;
-
-  const _RateVolunteerButton({
-    required this.volunteerId,
-    required this.volunteerName,
-    required this.donationId,
-  });
-
-  @override
-  State<_RateVolunteerButton> createState() => _RateVolunteerButtonState();
-}
-
-class _RateVolunteerButtonState extends State<_RateVolunteerButton> {
-  bool _rated = false;
-
-  void _showRatingDialog() {
-    double selectedRating = 5.0;
-    showDialog(
-      context: context,
-      builder: (ctx) => StatefulBuilder(
-        builder: (context, setDialogState) => AlertDialog(
-          title: Text('Rate ${widget.volunteerName}'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Text('How was the delivery service?'),
-              const SizedBox(height: 16),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: List.generate(5, (index) {
-                  return IconButton(
-                    icon: Icon(
-                      index < selectedRating ? Icons.star : Icons.star_border,
-                      color: Colors.amber,
-                      size: 32,
-                    ),
-                    onPressed: () {
-                      setDialogState(() => selectedRating = index + 1.0);
-                    },
-                  );
-                }),
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Cancel'),
-            ),
-            ElevatedButton(
-              onPressed: () async {
-                final navigator = Navigator.of(context);
-                final messenger = ScaffoldMessenger.of(context);
-                final prov = context.read<DonationProvider>();
-                final success = await prov.rateVolunteer(
-                  volunteerId: widget.volunteerId,
-                  rating: selectedRating,
-                );
-                if (!mounted) return;
-                if (success) {
-                  setState(() => _rated = true);
-                  navigator.pop();
-                  messenger.showSnackBar(
-                    const SnackBar(content: Text('Thank you for your feedback!')),
-                  );
-                }
-              },
-              child: const Text('Submit'),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    if (_rated) {
-      return const Icon(Icons.check_circle, color: AppColors.riskLow, size: 20);
-    }
-    return TextButton(
-      onPressed: _showRatingDialog,
-      style: TextButton.styleFrom(
-        visualDensity: VisualDensity.compact,
-        foregroundColor: AppColors.amber,
-      ),
-      child: const Text('Rate'),
     );
   }
 }

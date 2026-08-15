@@ -853,7 +853,7 @@ class _RiskResultCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final riskInt = riskResult['risk'] as int;
     final label = riskResult['risk_label'] as String;
-    final confidence = (riskResult['confidence'] as double).round();
+    final confidence = (riskResult['confidence'] as num).toDouble().round();
 
     Color bg;
     Color text;

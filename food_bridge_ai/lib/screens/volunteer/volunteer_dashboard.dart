@@ -421,24 +421,26 @@ class _VolStatCard extends StatelessWidget {
   const _VolStatCard({required this.label, required this.value, required this.icon, required this.color});
 
   @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.all(14),
-    decoration: BoxDecoration(
-      color: AppColors.darkCard,
-      borderRadius: BorderRadius.circular(18),
-      border: Border.all(color: color.withOpacity(0.25), width: 1),
-      boxShadow: [
-        BoxShadow(color: color.withOpacity(0.12), blurRadius: 14),
-        const BoxShadow(color: AppColors.shadowDark, blurRadius: 6, offset: Offset(0, 3)),
-      ],
-    ),
-    child: Column(
-      children: [
-        Icon(icon, color: color, size: 22),
-        const SizedBox(height: 6),
-        Text(value, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900, color: color, letterSpacing: -0.5)),
-        Text(label, style: const TextStyle(fontSize: 10, color: AppColors.textMedium)),
-      ],
+  Widget build(BuildContext context) => Expanded(
+    child: Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: AppColors.darkCard,
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: color.withOpacity(0.25), width: 1),
+        boxShadow: [
+          BoxShadow(color: color.withOpacity(0.12), blurRadius: 14),
+          const BoxShadow(color: AppColors.shadowDark, blurRadius: 6, offset: Offset(0, 3)),
+        ],
+      ),
+      child: Column(
+        children: [
+          Icon(icon, color: color, size: 22),
+          const SizedBox(height: 6),
+          Text(value, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900, color: color, letterSpacing: -0.5)),
+          Text(label, style: const TextStyle(fontSize: 10, color: AppColors.textMedium)),
+        ],
+      ),
     ),
   );
 }
@@ -493,8 +495,14 @@ class _TaskCardState extends State<_TaskCard> {
 
   Future<void> _accept() async {
     setState(() => _processing = true);
+    final auth = context.read<app_auth.AuthProvider>();
     final prov = context.read<DonationProvider>();
-    final ok = await prov.acceptTask(widget.donation.id);
+    final user = auth.userModel;
+    final ok = await prov.acceptTask(
+      widget.donation.id,
+      volunteerId: widget.uid,
+      volunteerName: user?.name,
+    );
     if (ok && mounted) {
       Navigator.of(context).push(
         PageRouteBuilder(

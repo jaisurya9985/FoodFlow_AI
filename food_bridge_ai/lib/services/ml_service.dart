@@ -67,7 +67,6 @@ class MLService {
               'pickup_lat': pickupLat,
               'pickup_lng': pickupLng,
               'food_weight_kg': foodWeightKg,
-              'risk_score': riskScore,
               'expiry_hours': expiryHours,
               'volunteers': volunteers,
             }),
@@ -118,7 +117,7 @@ class MLService {
       perishableExposureScore = timeSinceCooked / safeHours;
     }
 
-    double combined = (shelfUsedRatio * 0.4) + (tempDangerScore * 0.3) + (perishableExposureScore * 0.6);
+    double combined = (shelfUsedRatio * 0.35) + (tempDangerScore * 0.3) + (perishableExposureScore * 0.35);
 
     if (isPerishable && timeSinceCooked > 6.0 && temp > 20) {
       if (combined < 1.0) combined = 1.0;

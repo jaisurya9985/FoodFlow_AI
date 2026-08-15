@@ -34,7 +34,7 @@ service cloud.firestore {
     }
 
     match /meta/{docId} {
-      allow read, write: if isRole('admin');
+      allow read, write: if signedIn();
     }
 
     match /{document=**} {

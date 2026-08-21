@@ -118,7 +118,7 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
           Expanded(
             flex: 4,
             child: StreamBuilder<UserModel?>(
-              stream: currentUid.isEmpty ? Stream<UserModel?>.empty() : FirebaseService.userStream(currentUid),
+              stream: currentUid.isEmpty ? const Stream<UserModel?>.empty() : FirebaseService.userStream(currentUid),
               builder: (context, volunteerSnap) {
                 final volunteerLocation = volunteerSnap.data?.location;
                 final currentLatLng = volunteerLocation == null
@@ -127,7 +127,7 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
 
                 return StreamBuilder<UserModel?>(
                   stream: d.matchedNGOId == null
-                      ? Stream<UserModel?>.empty()
+                      ? const Stream<UserModel?>.empty()
                       : FirebaseService.userStream(d.matchedNGOId!),
                   builder: (context, ngoSnap) {
                     final ngoLocation = ngoSnap.data?.location;
@@ -334,7 +334,7 @@ class _ActiveTaskScreenState extends State<ActiveTaskScreen> {
                 const SizedBox(height: 16),
 
                 StreamBuilder<UserModel?>(
-                  stream: d.matchedNGOId == null ? Stream<UserModel?>.empty() : FirebaseService.userStream(d.matchedNGOId!),
+                  stream: d.matchedNGOId == null ? const Stream<UserModel?>.empty() : FirebaseService.userStream(d.matchedNGOId!),
                   builder: (context, ngoSnap) {
                     final ngoLoc = ngoSnap.data?.location;
                     if (ngoLoc == null) {

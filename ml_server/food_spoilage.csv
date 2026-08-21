@@ -1,0 +1,1501 @@
+food_item,category,storage_temperature_C,max_fridge_days,max_freezer_months,spoilage_visual_signs,spoilage_odor_signs,risk,guideline
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4h,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+cooked_chicken,poultry_cooked,≤4 / -18,3,4,"sliminess, mold (rare)",off or sour odor,high,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+leafy_greens,produce,1-4,3,8,"wilting, slimy leaves",musty or sour odor,medium,USDA
+cooked_rice,cooked_starch,≤4,1,6,"discoloration, drying, slime",sour or fermented odor,high (because of Bacillus cereus risk),USDA / FAO
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+canned_food_unopened,canned,room temp (cool/dry),,,"bulging, rust, leaking",strong rotten odor when opened,high (if can compromised),FDA / USDA
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA
+milk,dairy,1-4,5,1,"curdling, separation","sour, fermented odor",medium,USDA / FSSAI
+raw_chicken,poultry,≤4 / -18,1,12,"slimy surface, greyish discoloration","sour, foul odor",high,USDA

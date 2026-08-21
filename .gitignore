@@ -4,6 +4,7 @@ analyze_output*.txt
 # Python cache
 **/__pycache__/
 **/*.pyc
+.ml-training-venv/
 
 # Flutter app diagnostics
 food_bridge_ai/analysis_output.txt

@@ -125,7 +125,10 @@ def predict_food_risk(req: FoodRiskRequest):
         return logical_risk
     try:
         cat_encoded = category_encoder.transform([req.category])[0]
-        features = np.array([[ cat_encoded, req.storage_temperature_C, req.max_fridge_days, req.time_since_cooked ]])
+        # The retrained classifier uses the fields available in the labelled
+        # dataset.  Time since cooking is still used by the conservative
+        # rule-based safety check above.
+        features = np.array([[cat_encoded, req.storage_temperature_C, req.max_fridge_days]])
 
         raw_pred = food_risk_model.predict(features)[0]
 
